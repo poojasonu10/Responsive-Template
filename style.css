@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.container {
+    background-color: #041f52;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+h2 {
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.hero_section {
+    background-image: url('pic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero_msg {
+    width: 90%;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    line-height: 2.2;
+}
+span {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(10, 10, 61) ;
+}
+button,
+a {
+    background: transparent;
+    color: rgb(10, 10, 61) ;
+    border: 2px solid rgb(10, 10, 61);
+    padding: 4px  15px ;
+    font-weight: bold;
+    text-decoration: none;
+} 
+h3 {
+    margin-top: 25px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+p {
+    padding: 22px;
+}
+.about-us {
+    background-color: rgba(88, 175, 201, 0.527);
+    padding: 15px;
+    margin-top: 30px;
+}
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.form-cont {
+    background-color: #134285;
+    padding: 15px;
+    margin-top: 30px;
+    color: #fff;
+}
+form {
+    display: flex; 
+    text-align: left;
+    padding-top: 20px;
+    margin: 18px 0;
+    line-height: 1.5;
+}
+input, 
+label,
+textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding-top: 18px;
+}
+input,
+textarea {
+    border-bottom: 1px solid #ddd;
+}
+.ftr {
+    background-color: #0b2059;
+    padding: 15px;
+    color: #ddd;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}   
+.ftr h3, 
+p {
+    font-weight: normal;
+    font: 1em sans-serif;
+    font-weight: lighter;
+}
+.ftr p {
+    padding-left: 0;
+}
+.ftr a {
+    border: none;
+    color: #ddd;
+    font-weight: lighter;
+}
+#link {
+    text-decoration: underline;
+}
+@media all and (max-width: 550px) and (min-width: 280px) {
+    .hero_section {
+        background-image: url('pic2.jpg');
+        height: 350px;
+    }
+    h4 {
+        font-size: 13px;
+    }
+    span {
+        font-size: 24px;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo img {
+        width: 20%;
+        height: 20%;
+    }
+}
